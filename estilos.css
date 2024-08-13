@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: beige;
+}
+
+.presentacion {
+   
+    
+    justify-content: center;
+    background-color:rgb(247, 215, 173);
+    padding: 10%;
+    
+}
+.text1 {
+    margin-right: 1rem;
+    margin-left: 1rem;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.img1{
+    margin-left: 10%;
+}
+.img2{
+    margin-left: 25%;
+}
+.contenedor2 p {
+    margin-right: 1rem;
+    margin-left: 1rem;
+    text-align: center;
+    font-size: 1.2rem;
+        
+}
+.contenedor2 {
+    margin:5%;
+    justify-content: center;
+    gap:10%;
+    text-align: center;
+   
+}
+h1{
+    text-align: center;
+    font-size: 2rem;
+
+}
+.nuestro_escenario{
+    padding-top: 3%;
+}
+
+
+
+.contenedor3 p {
+    margin-right: 1rem;
+    margin-left: 1rem;
+    text-align: center;
+    font-size: 1.2rem;
+        
+}
+.contenedor3 {
+    margin:5%;
+    justify-content: center;
+    gap:10%;
+    text-align: center;
+    
+   
+}
+.img3{
+    margin-top:5%;
+}
+.img4{
+    margin-top: 5%;
+}
+.objetivos{
+    background-color: burlywood;
+    padding: 10%;
+}
+
+@media (width >800px){
+    .contenedor2{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap :10%;
+    }
+    .contenedor3{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap:10%;
+    }
+}
