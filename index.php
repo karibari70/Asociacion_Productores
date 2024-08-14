@@ -9,8 +9,5 @@
 </head>
 <body>
     <?php require 'navbar.php' ?>
-    <h2>Constituida el 15 de Febrero de 2011 - Personería Jurídica n° 4388</h2>
-    <img src="media/Fondo_elHoyo.jpg" alt="">
-    <?php require 'footer.php' ?>
 </body>
 </html>

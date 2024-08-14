@@ -13,14 +13,16 @@
 
   <header class="header">
     <nav class="navbar">
-      <img class="nav-logo" src="media/logo_navbar.png" alt="">
+      <a href="index.php">
+        <img class="nav-logo" src="media/logo_navbar.png" alt="" >
+      </a>
       <h2 class="nav-txt">Asociación de Productores del El Hoyo</h2>
       <ul class="nav-menu">
         <li class="nav-item">
           <a href="#" class="nav-link">Consultas</a>
         </li>
         <li class="nav-item">
-          <a href="#" class="nav-link">Quienes Somos</a>
+          <a href="quienes_somos.php" class="nav-link">Quienes Somos</a>
         </li>
         <li class="nav-item">
           <a href="#" class="nav-link">Galeria</a>
