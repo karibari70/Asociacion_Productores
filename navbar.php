@@ -16,7 +16,7 @@
       <a href="index.php">
         <img class="nav-logo" src="media/logo_navbar.png" alt="" >
       </a>
-      <h2 class="nav-txt">Asociación de Productores del El Hoyo</h2>
+      <h2 class="nav-txt">Asociación de Productores de El Hoyo</h2>
       <ul class="nav-menu">
         <li class="nav-item">
           <a href="#" class="nav-link">Consultas</a>
