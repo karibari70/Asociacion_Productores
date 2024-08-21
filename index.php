@@ -15,7 +15,7 @@
             <div class="txt-contenedor">
                 <p>"Fuerza y Confianza al Servicio del Productor"</p>
             </div>
-        </div>
+    </div>
     
 </body>
 </html>

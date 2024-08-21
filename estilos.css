@@ -26,6 +26,7 @@
 }
 
 
+
 /* -----------------Quienes Somos----------------- */
 body {
     margin: 0;
@@ -107,6 +108,8 @@ h1{
 }
 
 @media only screen and (max-width: 768px){
+
+
 
 /* ------------------------Index-------------------------- */
 .txt-contenedor {
