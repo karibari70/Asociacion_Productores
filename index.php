@@ -9,5 +9,13 @@
 </head>
 <body>
     <?php require 'navbar.php' ?>
+
+    <div class="contenedor-inicio">
+            <img src="media/valle_el_hoyo.jpg" alt="valle_el_hoyo" class="img-contenedor">
+            <div class="txt-contenedor">
+                <p>"Fuerza y Confianza al Servicio del Productor"</p>
+            </div>
+        </div>
+    
 </body>
 </html>

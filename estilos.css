@@ -1,3 +1,32 @@
+/* -------------------Index------------------------- */
+
+
+.contenedor-inicio {
+    position: relative;
+    width: 100%; /* Puedes ajustar el tamaño según tus necesidades */
+}
+
+.img-contenedor {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.txt-contenedor {
+    position: absolute;
+    text-align: center;
+    font-size: 4rem;
+    top: 80%; /* Ajusta la posición vertical del texto */
+    left: 60%; /* Ajusta la posición horizontal del texto */
+    transform: translate(-4%, 3%); /* Centra el texto */
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente */
+    color: white;
+    padding: 1px;
+    border-radius: 10px;
+}
+
+
+/* -----------------Quienes Somos----------------- */
 body {
     margin: 0;
     padding: 0;
@@ -78,6 +107,24 @@ h1{
 }
 
 @media only screen and (max-width: 768px){
+
+/* ------------------------Index-------------------------- */
+.txt-contenedor {
+    position: absolute;
+    text-align: center;
+    font-size: 1.5rem;
+    top: 70%; /* Ajusta la posición vertical del texto */
+    left: 50%; /* Ajusta la posición horizontal del texto */
+    transform: translate(5%, -1%); /* Centra el texto */
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente */
+    color: white;
+    padding: 1px;
+    border-radius: 10px;
+}
+
+
+/* -------------------Quienes Somos-------------------- */
+
     .contenedor2{
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -88,4 +135,5 @@ h1{
         grid-template-columns: 1fr 1fr;
         gap:10%;
     }
+
 }
