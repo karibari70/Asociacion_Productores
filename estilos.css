@@ -33,50 +33,100 @@ body {
     padding: 0;
     width: 100%;
     height: 100%;
-    background-color: beige;
+    background-color: #FAFAFA;
 }
 
 .presentacion {
-   
-    
+
+    margin-left: 3%;
+    margin-right: 3%;
     justify-content: center;
-    background-color:rgb(247, 215, 173);
-    padding: 10%;
-    
+    background-color: #ece8e8;
+    padding: 5%;
+
 }
+
 .text1 {
     margin-right: 1rem;
     margin-left: 1rem;
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
 }
-.img1{
-    margin-left: 10%;
-}
-.img2{
-    margin-left: 25%;
-}
-.contenedor2 p {
+
+.historia p {
     margin-right: 1rem;
     margin-left: 1rem;
     text-align: center;
     font-size: 1.2rem;
-        
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
-.contenedor2 {
-    margin:5%;
-    justify-content: center;
-    gap:10%;
+
+.actualidad p {
+    margin-right: 1rem;
+    margin-left: 1rem;
     text-align: center;
-   
-}
-h1{
-    text-align: center;
-    font-size: 2rem;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 
 }
-.nuestro_escenario{
-    padding-top: 3%;
+
+.img1 {
+
+    display: flex;
+    justify-content: center;
+    box-shadow: 3px 5px 3px#3E4042;
+    border: 3px solid #B4B4B4;
+}
+
+.img2 {
+
+    margin-left: 20%;
+    width: 60%;
+    box-shadow: 3px 5px 3px#3E4042;
+    border: 3px solid #B4B4B4;
+}
+
+hr {
+    margin-left: 16%;
+    justify-content: center;
+    border: 1px solid #B4B4B4;
+    height: 2px;
+    width: 70%;
+
+}
+
+.contenedor2 p {
+
+    text-align: center;
+    font-size: 1.5rem;
+
+}
+
+.contenedor2 {
+
+    justify-content: center;
+
+    text-align: center;
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+
+}
+
+.nuestro_escenario {
+    margin-left: 10%;
+    margin-right: 10%;
+    box-shadow: 5px 15px 10px black;
+
+
 }
 
 
@@ -85,28 +135,56 @@ h1{
     margin-right: 1rem;
     margin-left: 1rem;
     text-align: center;
-    font-size: 1.2rem;
-        
+    font-size: 1.5rem;
+
+    margin-top: 2rem;
+
 }
+
 .contenedor3 {
-    margin:5%;
+    margin: 5%;
     justify-content: center;
-    gap:10%;
-    text-align: center;
-    
    
+    text-align: center;
+
+
 }
-.img3{
-    margin-top:5%;
-}
-.img4{
+
+.img3 {
     margin-top: 5%;
+
+    box-shadow: 5px 8px 10px black;
 }
-.objetivos{
+
+.img4 {
+    border: 3px solid #B4B4B4 ;
+    margin-top: 10%;
+    margin-bottom:5% ;
+}
+
+
+.img5 {
+    margin-top: 10%;
+    border: 3px solid #B4B4B4;
+}
+
+.img6 {
+    margin-top: 4%;
+    border-radius: 5%;
+}
+
+.img7 {
+    margin-top: 4%;
+    border-radius: 5%;
+}
+
+.objetivos {
     background-color: burlywood;
+
     padding: 10%;
 }
 
+<<<<<<< Updated upstream
 @media only screen and (max-width: 768px){
 
 
@@ -129,14 +207,148 @@ h1{
 /* -------------------Quienes Somos-------------------- */
 
     .contenedor2{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap :10%;
-    }
-    .contenedor3{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap:10%;
-    }
+=======
+.contenedor4 {
+    margin-left: 3rem;
+    margin-right: 3rem;
+
+    background-color: #F1F1F1;
 
 }
+
+.text2 {
+    background-color: #F1F1F1;
+    text-align: center;
+    font-size: 2rem;
+
+    padding: 10%;
+
+
+
+}
+
+
+button {
+    margin-top: 2rem;
+    padding: 10px 15px;
+    background-color: #2E4A34;
+    color: #F1F1F1;
+    border-radius: 50px;
+    transition: 2s;
+    cursor: pointer;
+
+}
+
+.objetivo1 {
+    box-shadow: 5px 8px 10px black;
+    padding: 5%;
+    background-color: #dfd7bd;
+    border-radius: 5%;
+}
+
+.objetivo2 {
+    box-shadow: 5px 8px 10px black;
+    padding: 5%;
+    background-color: #dfd7bd;
+    border-radius: 5%;
+    margin-top: 3%;
+   
+}
+
+button:hover {
+    color: cyan;
+}
+
+.contenedor5 {
+    display: flex;
+    text-align: center;
+
+    justify-content: center;
+
+    padding: 2%;
+
+}
+
+
+
+@media (width >800px) {
+    .contenedor2 {
+>>>>>>> Stashed changes
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+
+    }
+
+    .text1 {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+
+    .contenedor3 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 5%;
+    }
+
+<<<<<<< Updated upstream
+}
+=======
+    button {
+        display: grid;
+        align-content: center;
+        justify-content: center;
+        padding: 15px 120px;
+    }
+
+    .contenedor4 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+
+    }
+
+
+    .historia {
+        margin: 5%;
+
+        border: 1px solid #B4B4B4;
+        padding-bottom: 5%;
+        border-radius: 1%;
+        background-color: rgb(231, 221, 207);
+    }
+.historia p{
+    background-color: #FAFAFA;
+}
+    .actualidad {
+        margin: 5%;
+        border: 1px solid #B4B4B4;
+        padding-bottom: 5%;
+        border-radius: 1%;
+        background-color: rgb(231, 221, 207);
+    }
+    .actualidad p{
+        background-color: #FAFAFA;
+    }
+    .objetivo1 {
+        box-shadow: 5px 8px 10px black;
+        
+        background-color: #dfd7bd;
+        border-radius: 5%;
+    }
+    
+    .objetivo2 {
+        box-shadow: 5px 8px 10px black;
+        
+        background-color: #dfd7bd;
+        border-radius: 5%;
+        margin-top: 0%;
+    }
+    .contenedor5 {
+        display: flex;
+        text-align: center;
+  
+    }
+}
+>>>>>>> Stashed changes

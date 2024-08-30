@@ -28,7 +28,11 @@
           <a href="#" class="nav-link">Galeria</a>
         </li>
         <li class="nav-item">
+<<<<<<< Updated upstream
           <a href="#" class="nav-link">Servicios</a>
+=======
+          <a href="servicios.php" class="nav-link">Servicios</a>
+>>>>>>> Stashed changes
         </li>
       </ul>
       <div class="hamburger">
