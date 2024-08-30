@@ -15,12 +15,7 @@
             <div class="txt-contenedor">
                 <p>"Fuerza y Confianza al Servicio del Productor"</p>
             </div>
-<<<<<<< Updated upstream
     </div>
     
 </body>
-=======
-        </div>
-    </body>
->>>>>>> Stashed changes
 </html>

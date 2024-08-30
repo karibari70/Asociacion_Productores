@@ -11,10 +11,6 @@
 
 <body>
     <?php require 'navbar.php' ?>
-<<<<<<< Updated upstream
-=======
-
->>>>>>> Stashed changes
     <div class="presentacion">
 
         <h1>Quienes Somos</h1>
@@ -26,22 +22,14 @@
         </div>
 
         <div class="img1">
-<<<<<<< Updated upstream
-            <img src="media/quienes_somos3.jpg" alt="productores1" width=90% />
-=======
-            <img src="quienes_somos3.jpg" alt="productores1" width=100% />
->>>>>>> Stashed changes
+            <img src="media/quienes_somos3.jpg" alt="productores1" width=100% />
         </div>
         <br><br>
         <div class="text1">
             <p> Actualmente la integramos más de 100 socios, quienes utilizamos los servicios que brinda la Asociación, poniendo a disposición del productor maquinaria para diversas tareas en relación a la producción agrícola, particularmente forrajes.</p>
         </div>
         <div class="img2">
-<<<<<<< Updated upstream
-            <img src="media/Imagen2.jpg" alt="forrajes" width=70% />
-=======
-            <img src="Imagen2.jpg" alt="forrajes" width=100% />
->>>>>>> Stashed changes
+            <img src="media/Imagen2.jpg" alt="forrajes" width=100% />
         </div>
 
     </div>
@@ -59,26 +47,18 @@
             <div class="historia">
                 <p>El Hoyo se encuentra en un hermoso Valle enclavado en el NO de la Pcia. de Chubut, donde históricamente la cultura y formas de subsistencia de nuestros habitantes se basaban en el trabajo de la tierra y la cría de animales.
                 <p>
-<<<<<<< Updated upstream
-                    <img src="media/paisaje.JPG" alt="paisaje" width=60%>
-=======
                 <div class="img4">
-                    <img src="paisaje.JPG" alt="paisaje" width=100%>
+                    <img src="media/paisaje.JPG" alt="paisaje" width=100%>
                 </div>
->>>>>>> Stashed changes
 
             </div>
 
             <div class="actualidad">
                 <p>Hoy somos emprendedores con ansias de progreso, con el entusiasmo movilizado desde la necesidad de ampliar nuestra producción, cuidando los recursos naturales que usamos a nuestro beneficio.
                 <p>
-<<<<<<< Updated upstream
-                    <img src="media/Imagen9.jpg" alt="productores3" width=60%>
-=======
                 <div class="img5">
-                    <img src="Imagen9.jpg" alt="productores3" width=100%>
+                    <img src="media/Imagen9.jpg" alt="productores3" width=100%>
                 </div>
->>>>>>> Stashed changes
 
             </div>
         </div>
@@ -91,28 +71,20 @@
             <div class="objetivo1">
                 <p> Activar mecanismos que nos permitan incorporar más maquinaria de menor porte para brindar un mejor servicio a los agricultores familiares dedicados a la horticultura y fruticultura.
                 <p>
-<<<<<<< Updated upstream
-                    <img src="media/imagen_fram.JPG" class ="img3" alt="frambuesa" width=80%>
-=======
                 <div class="img6">
-                    <img src="imagen_fram.JPG" class="img6" alt="frambuesa" width=100%>
+                    <img src="media/imagen_fram.JPG" alt="frambuesa" width=100%>
                 </div>
->>>>>>> Stashed changes
             </div>
-            
+
             <div class="objetivo2">
                 <p>En cuanto a instalaciones, creemos necesario contar con instalaciones como por ejemplo: molienda de granos, esterilización y encurtidos, alambique, ahumado y envasado al vacio.</p>
-<<<<<<< Updated upstream
-                <img src="media/imagen_fru.JPG"class="img4" alt="frutilla" width=75%>
-=======
                 <div class="img7">
-                    <img src="imagen_fru.JPG" class="img7" alt="frutilla" width=100%>
+                    <img src="media/imagen_fru.JPG" alt="frutilla" width=100%>
                 </div>
->>>>>>> Stashed changes
             </div>
         </div>
     </div>
-    </div>
+    
 </body>
 
 </html>
