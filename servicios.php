@@ -9,6 +9,9 @@
 </head>
 
 <body>
+
+    <button class="boton-flotante"></button>
+
     <?php require 'navbar.php' ?>
     
         <h1>Servicios</h1>
@@ -35,7 +38,7 @@
 
 
 
-
+    <?php require 'footer.php'?>
 </body>
 
 </html>

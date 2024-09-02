@@ -11,6 +11,9 @@
 
 <body>
     <?php require 'navbar.php' ?>
+
+    <button class="boton-flotante"></button>
+
     <div class="presentacion">
 
         <h1>Quienes Somos</h1>
@@ -85,6 +88,7 @@
         </div>
     </div>
     
+    <?php require 'footer.php'?>
 </body>
 
 </html>

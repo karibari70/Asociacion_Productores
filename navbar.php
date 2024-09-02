@@ -18,14 +18,11 @@
       </a>
       <h2 class="nav-txt">Asociación de Productores de El Hoyo</h2>
       <ul class="nav-menu">
-        <li class="nav-item">
-          <a href="#" class="nav-link">Consultas</a>
+      <li class="nav-item">
+          <a href="index.php" class="nav-link">Inicio</a>
         </li>
         <li class="nav-item">
           <a href="quienes_somos.php" class="nav-link">Quienes Somos</a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link">Galeria</a>
         </li>
         <li class="nav-item">
           <a href="servicios.php" class="nav-link">Servicios</a>

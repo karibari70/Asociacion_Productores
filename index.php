@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
+
+    <button class="boton-flotante"></button>
+
     <?php require 'navbar.php' ?>
 
     <div class="contenedor-inicio">
@@ -17,5 +20,6 @@
             </div>
     </div>
     
+    <?php require 'footer.php'?>
 </body>
 </html>
