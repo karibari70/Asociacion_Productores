@@ -32,7 +32,7 @@
             <p> Actualmente la integramos más de 100 socios, quienes utilizamos los servicios que brinda la Asociación, poniendo a disposición del productor maquinaria para diversas tareas en relación a la producción agrícola, particularmente forrajes.</p>
         </div>
         <div class="img2">
-            <img src="media/Imagen2.jpg" alt="forrajes" width=100% />
+            <img src="Media/fardos.jpg" alt="forrajes" width=100% />
         </div>
 
     </div>
@@ -60,7 +60,7 @@
                 <p>Hoy somos emprendedores con ansias de progreso, con el entusiasmo movilizado desde la necesidad de ampliar nuestra producción, cuidando los recursos naturales que usamos a nuestro beneficio.
                 <p>
                 <div class="img5">
-                    <img src="media/Imagen9.jpg" alt="productores3" width=100%>
+                    <img src="Media/productores.jpg" alt="productores3" width=100%>
                 </div>
 
             </div>

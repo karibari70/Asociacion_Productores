@@ -204,15 +204,38 @@ hr {
 .img4 {
     border: 3px solid #B4B4B4;
     margin-top: 10%;
-    margin-bottom: 5%;
+
 }
 
+
+.nuestro_escenario .historia {
+    padding-bottom: 23px;
+}
+
+
+.historia .img4 img {
+    display: inline-block;
+    min-height: 294px;
+}
+
+
+.nuestro_escenario .historia .img4 {
+    height: 300px;
+}
 
 .img5 {
     margin-top: 15%;
     border: 3px solid #B4B4B4;
 
 
+}
+
+.nuestro_escenario .actualidad .img4 {
+    height: 297px;
+}
+
+.nuestro_escenario .actualidad .img5 {
+    height: 295px;
 }
 
 .img6 {
@@ -234,7 +257,7 @@ hr {
     margin-left: 3rem;
     margin-right: 3rem;
 
-    background-color: #F1F1F1;
+
 
 }
 
@@ -277,6 +300,54 @@ button:hover {
     padding: 2%;
 
 }
+
+.contacto {
+
+
+    h1 {
+        color: #080808;
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    h1.linea {
+        position: relative;
+        z-index: 1;
+    }
+
+    h1.linea:before {
+        border-top: 2px solid #2E4A34;
+        content: "";
+        margin: 0 auto;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 95%;
+        z-index: -1;
+    }
+
+    h1.linea span {
+        background: #fff;
+        padding: 0 15px;
+    }
+}
+
+.formulario {
+    background-color: aquamarine;
+    padding: 3%;
+    margin-top: 5%;
+    
+}
+
+form {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    color: #181717;
+    font-size: 2rem;
+}
+
 
 
 
@@ -339,11 +410,11 @@ button:hover {
 
     /* ----Servicios----- */
 
-    button {
+    .button {
         display: grid;
         align-content: center;
         justify-content: center;
-        padding: 15px 120px;
+        padding: 15px 20px;
         gap: 10%;
     }
 
@@ -356,6 +427,16 @@ button:hover {
         display: flex;
         text-align: center;
 
+    }
+    form{
+        display: grid;
+        align-content: center;
+        justify-content: center;
+        
+       
+    }
+    input{
+        padding-bottom: 2%;
     }
 }
 
