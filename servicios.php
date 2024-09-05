@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Servicios</title>
     <link rel="stylesheet" href="estilos.css">
-    <script src="https://kit.fontawesome.com/b57b11971d.js" crossorigin="anonymous"></script>
+    
 </head>
 
 <body>
@@ -37,29 +37,15 @@
         </div>
     </div>
 
-    <div class="contacto">
+    <div class="mensaje_contacto">
+        <a href="contacto.php">
 
-        <h1 class="linea"><span><i class="fa-duotone fa-solid fa-handshake-simple"></i>Contáctenos<i class="fa-duotone fa-solid fa-handshake-simple"></i></span></h1>
+            <h1 class="linea"><span>Contáctenos</span></h1>
+        </a>
     </div>
 
-    <div class="formulario">
-        <form method="post" action='datos.php'>
-
-            <div>Nombre y Apellido:</div>
-            <input type="text" name="name" placeholder="Nombre y Apellido " required /><br>
-           
-            <div>Correo Electronico:</div>
-            <input type="email" name="email" placeholder="ejemplo@ejemplo.com" required /><br>
-            <div> Su mensaje:</div>
-
-            <textarea rows="3" cols="50" maxlength="150" placeholder="Escribe tu mensaje aqui"></textarea>
-
-
-            <button type="submit">Enviar Formulario</button>
-        </form>
-    </div>
-
-    <?php require 'footer.php'?>
+    
+    <?php require 'footer.php' ?>
 </body>
 
 </html>

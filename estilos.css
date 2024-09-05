@@ -3,8 +3,8 @@
 .boton-flotante {
     position: fixed;
     bottom: 20px;
-    right: 20px; 
-    background-color: #007bff00; 
+    right: 20px;
+    background-color: #007bff00;
     color: #fff;
     border: none;
     border-radius: 50%;
@@ -17,13 +17,13 @@
     background-position: center;
     padding: 0;
     z-index: 1000;
-  }
-  
-  .boton-flotante:hover {
+}
+
+.boton-flotante:hover {
     background-size: 130%;
     background-position: center;
-    
-  }
+
+}
 
 /* -------------------Index------------------------- */
 
@@ -301,7 +301,7 @@ button:hover {
 
 }
 
-.contacto {
+.mensaje_contacto {
 
 
     h1 {
@@ -309,10 +309,13 @@ button:hover {
         margin-top: 30px;
         text-align: center;
     }
-
+h1:hover{
+    color: aqua;
+}
     h1.linea {
         position: relative;
         z-index: 1;
+        padding: 5%;
     }
 
     h1.linea:before {
@@ -334,11 +337,62 @@ button:hover {
     }
 }
 
+
+/* --------contacto -----------*/
+
+.contenedor_contacto {
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.img_contacto {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.texto_contacto {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(24, 24, 24, 0.132);
+    /* Fondo semitransparente */
+    width: 90%;
+    max-width: 800px;
+}
+
+.texto_contacto h1 {
+    font-size: 8vw;
+    margin: 0;
+}
+
+.icon_contacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #595945;
+    padding: 5%;
+
+}
+
+.icon_contacto a img {
+    margin-left: 44px;
+    margin-right: 44px;
+}
 .formulario {
-    background-color: aquamarine;
+    background-color: #7ECBEA;
     padding: 3%;
-    margin-top: 5%;
-    
+
+
 }
 
 form {
@@ -346,10 +400,14 @@ form {
     font-style: oblique;
     color: #181717;
     font-size: 2rem;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    margin: 15%;
 }
 
 
-
+/*  */
 
 @media (width >800px) {
 
@@ -428,15 +486,26 @@ form {
         text-align: center;
 
     }
-    form{
+/* ----contacto----- */
+    form {
         display: grid;
         align-content: center;
         justify-content: center;
-        
-       
+
+
     }
-    input{
+
+    input {
         padding-bottom: 2%;
+    }
+
+    .texto_contacto h1 {
+        font-size: 6vw;
+        margin: 0;
+        color: #ffffff;
+        /* Asegúrate de que el color del texto sea adecuado */
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        /* Añade sombra al texto */
     }
 }
 
