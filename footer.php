@@ -14,7 +14,7 @@
     <footer>
             <p>&copy; 2024 Asociación de Productores de El Hoyo. Todos los derechos reservados.</p>
             <div class="link-correo">
-                <a href="mailto:asociacionproductoresdelhoyo@gmail.com">asociacionproductoresdelhoyo@gmail.com</a>
+                <a href="mailto:asociacionproductoresdeelhoyo@gmail.com">asociacionproductoresdeelhoyo@gmail.com</a>
             </div>
     </footer>
 

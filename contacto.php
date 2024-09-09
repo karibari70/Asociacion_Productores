@@ -9,7 +9,7 @@
 </head>
 
 <body>
-<?php require 'navbar.php' ?>
+    <?php require 'navbar.php' ?>
 
     <div class="contenedor_contacto">
         <img src="Media/Imagen10.jpg" alt="maquina" class="img_contacto">
@@ -19,12 +19,21 @@
     </div>
     <div class="icon_contacto">
         <a href=" https://wa.me/542944114644 " target=_blank>
-            <img width="48" height="48" src="Media/icons8-whatsapp-128.png" alt="whatsapp--v1" /></a>
+            <img  src="Media/icons8-whatsapp-128.png" alt="whatsapp--v1" /></a>
         <a href="mailto:asociaciondeproductoresdeelhoyo@gmail.com" target=_blank>
-            <img width="48" height="48" src="Media/icons8-correo-94.png" alt="mail" /> </a>
+            <img src="Media/icons8-correo-94.png" alt="mail" /> </a>
+
+        <!-- <img width="48" height="48" src="Media/icons8-whatsapp-128.png" alt="whatsapp--v1" />
+        <span>+542944114644 </span>
+
+
+        <img width="48" height="48" src="Media/icons8-correo-94.png" alt="mail" />
+        <a href="mailto:asociaciondeproductoresdeelhoyo@gmail.com" class="text_mail" target=_blank> asociaciondeproductoresdeelhoyo@gmail.com</a> -->
+
     </div>
 
     <div class="formulario">
+        <h1>Envie su consulta</h1>
         <form method="post" action='datos.php'>
 
             <div>Nombre y Apellido:</div>

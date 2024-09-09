@@ -13,7 +13,7 @@
 
     <button class="boton-flotante"></button>
 
-    <?php require 'navbar.php' ?>
+    <?php require 'navbar.php' ?><br>
 
     <h1>Servicios</h1>
 
@@ -35,6 +35,9 @@
             <a href="PARQUE DE MAQUINARIAS (1).pdf" target="_blank">
                 <button>Ver aquí nuestro PARQUE DE MAQUINARIA </button></a>
         </div>
+    </div>
+    <div class="contenedor6">
+        <h1>Brindamos servicios al productor ganadero y al productor frutihortícola de El Hoyo y Comarca Andina</h1>
     </div>
 
     <div class="mensaje_contacto">

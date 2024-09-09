@@ -301,6 +301,14 @@ button:hover {
 
 }
 
+.contenedor6 {
+    text-align: center;
+    justify-content: center;
+    background-color: burlywood;
+    padding: 5%;
+
+}
+
 .mensaje_contacto {
 
 
@@ -309,9 +317,11 @@ button:hover {
         margin-top: 30px;
         text-align: center;
     }
-h1:hover{
-    color: aqua;
-}
+
+    h1:hover {
+        color: aqua;
+    }
+
     h1.linea {
         position: relative;
         z-index: 1;
@@ -377,20 +387,28 @@ h1:hover{
 
 .icon_contacto {
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     background-color: #595945;
     padding: 5%;
+    font-size: 3rem;
 
 }
 
-.icon_contacto a img {
+.icon_contacto img {
     margin-left: 44px;
     margin-right: 44px;
+    width: 30%;
 }
+
+.icon_contacto img:hover {
+    width: 50%;
+    transform: translateY(-35px);
+}
+
 .formulario {
     background-color: #7ECBEA;
-    padding: 3%;
+    padding: 2%;
 
 
 }
@@ -404,10 +422,26 @@ form {
     align-content: center;
     justify-content: center;
     margin: 15%;
+
+}
+
+.formulario button {
+    background-color: #2E4A34;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.formulario button:hover {
+    background-color: #7ECBEA;
+    color:#181717 ;
+}
+.formulario h1{
+    color: #181717;
 }
 
 
-/*  */
 
 @media (width >800px) {
 
@@ -486,7 +520,25 @@ form {
         text-align: center;
 
     }
-/* ----contacto----- */
+
+    /* ----contacto----- */
+    /* .icon_contacto img{
+    width:48px;
+    margin-right:57px;
+    transform:translatex(537px) translatey(-13px);
+   }
+    */
+    .icon_contacto img {
+        margin-left: 44px;
+        margin-right: 44px;
+        width: 50%;
+    }
+
+    .icon_contacto img:hover {
+        width: 70%;
+        transform: translateY(-35px);
+    }
+
     form {
         display: grid;
         align-content: center;
@@ -495,8 +547,16 @@ form {
 
     }
 
+
+    .formulario form {
+        position: relative;
+        top: -136px;
+
+    }
+
     input {
         padding-bottom: 2%;
+       
     }
 
     .texto_contacto h1 {
