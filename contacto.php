@@ -36,14 +36,14 @@
         <h1>Envie su consulta</h1>
         <form method="post" action='datos.php'>
 
-            <div>Nombre y Apellido:</div>
-            <input type="text" name="name" placeholder="Nombre y Apellido " required /><br>
+            <div class="datos_form">Nombre y Apellido</div>
+            <input type="text" name="name"  required /><br>
 
-            <div>Correo Electronico:</div>
-            <input type="email" name="email" placeholder="ejemplo@ejemplo.com" required /><br>
-            <div> Su mensaje:</div>
+            <div class="datos_form">Correo Electrónico</div>
+            <input type="email" name="email"  required /><br>
+            <div> Su mensaje</div>
 
-            <textarea rows="3" cols="50" maxlength="150" placeholder="Escribe tu mensaje aqui"></textarea>
+            <textarea rows="3" cols="50" maxlength="150" ></textarea>
 
 
             <button type="submit">Enviar Formulario</button>

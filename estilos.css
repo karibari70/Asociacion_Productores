@@ -281,14 +281,15 @@ button {
     padding: 10px 15px;
     background-color: #2E4A34;
     color: #F1F1F1;
-    border-radius: 50px;
+    border-radius: 25px;
     transition: 2s;
     cursor: pointer;
 
 }
 
 button:hover {
-    color: cyan;
+    background-color: cyan;
+    color: #181717;
 }
 
 .contenedor5 {
@@ -378,6 +379,7 @@ button:hover {
     /* Fondo semitransparente */
     width: 90%;
     max-width: 800px;
+    box-shadow: 10px 8px 10px black;
 }
 
 .texto_contacto h1 {
@@ -422,6 +424,7 @@ form {
     align-content: center;
     justify-content: center;
     margin: 15%;
+    
 
 }
 
@@ -431,17 +434,40 @@ form {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    font-size: 2rem;
 }
 
 .formulario button:hover {
     background-color: #7ECBEA;
-    color:#181717 ;
+    color:#0f0f0f ;
 }
 .formulario h1{
     color: #181717;
 }
+input{
+    border: 0;
+    background-color:#7ECBEA ;
+    border-bottom: #423e3e solid 1px;
+    font-size: 2rem;
+    
+}
+input:focus{
+    outline: none;
+        
+}
+textarea{
+    padding-bottom: 3%;
+    background-color:#7ECBEA ;
+    border: 0;
+    border-bottom: #423e3e solid 1px;
+    font-size: 2rem;
 
-
+}
+.datos_form{
+    padding-bottom: 4%;
+}
+.formulario h1{
+    transform:translatex(0px) translatey(26px);}
 
 @media (width >800px) {
 
@@ -554,11 +580,7 @@ form {
 
     }
 
-    input {
-        padding-bottom: 2%;
-       
-    }
-
+   
     .texto_contacto h1 {
         font-size: 6vw;
         margin: 0;
