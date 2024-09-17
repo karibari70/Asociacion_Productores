@@ -27,6 +27,12 @@
         <li class="nav-item">
           <a href="servicios.php" class="nav-link">Servicios</a>
         </li>
+        <li class="nav-item">
+          <a href="Contacto.php" class="nav-link">Contacto</a>
+        </li>
+        <li class="nav-item">
+          <a href="Galeria.php" class="nav-link">Galería</a>
+        </li>
       </ul>
       <div class="hamburger">
         <span class="bar"></span>
