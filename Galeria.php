@@ -8,14 +8,18 @@
 </head>
 <body>
     <?php require 'navbar.php' ?>
-    <div class="img1">
-        <img src="media/Cartel_el_Hoyo-Galería.jpg" alt="Cartel_ElHoyo">
-    </div>
-    <div>
-        <img src="media/Cultivos-Galería.jpeg" alt="Cultivos">
-    </div>
-    <div>
-        <img src="media/Maquinaria-Galería.jpg" alt="">
+    <div class="presentacion">
+        <div class="img1">
+            <img src="media/Cartel_el_Hoyo-Galería.jpg" alt="Cartel_ElHoyo" width=100% />
+        </div>
+        <br><br>
+        <div class="img2">
+            <img src="Media/Cultivos-Galería.jpeg" alt="Cultivos" width=100% />
+        </div>
+        <br><br>
+        <div class="img2">
+            <img src="Media/Maquinaria-Galería.jpg" alt="Maquinaria" width=100% />
+        </div>
     </div>
 </body>
 </html>
