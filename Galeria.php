@@ -8,6 +8,10 @@
 </head>
 <body>
     <?php require 'navbar.php' ?>
+    <div class="boton-flotante">
+        <a href=" https://wa.me/542944114644 " target=_blank>
+            <button class="boton-flotante"></button>
+    </div>
     <div class="presentacion">
         <div class="img1">
             <img src="media/Cartel_el_Hoyo-Galería.jpg" alt="Cartel_ElHoyo" width=100% />

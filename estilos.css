@@ -267,6 +267,8 @@ hr {
     font-size: 2rem;
 
     padding: 10%;
+    border-left: 2px solid black;
+    border-bottom:2px solid black ;
 
 }
 
