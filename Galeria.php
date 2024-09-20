@@ -7,19 +7,38 @@
     <title>Galeria</title>
 </head>
 <body>
+
+    <button class="boton-flotante"></button>
+
     <?php require 'navbar.php' ?>
     <div class="presentacion">
         <div class="img1">
-            <img src="media/Cartel_el_Hoyo-Galería.jpg" alt="Cartel_ElHoyo" width=100% />
+            <div class="conten-imagen">
+                <img src="Media/Equipo_1-Galería.jpg" alt="Equipo de Trabajo" width=100% />
+                <div class="txt-sobrepuesto">Equipo de Trabajo</div>
+            </div>
         </div>
         <br><br>
-        <div class="img2">
-            <img src="Media/Cultivos-Galería.jpeg" alt="Cultivos" width=100% />
+        <div class="img1">
+            <img src="Media/Equipo_2-Galería.jpg" alt="Equipo de Trabajo" width="100%">
         </div>
         <br><br>
-        <div class="img2">
-            <img src="Media/Maquinaria-Galería.jpg" alt="Maquinaria" width=100% />
+        <div class="img1">
+            <div class="conten-imagen">
+                <img src="Media/Grua_1-Galeria.jpg" alt="Trabajo con Grua" width=100% />
+                <div class="txt-sobrepuesto">Con qué trabajamos</div>
+            </div>
+        </div>
+        <br><br>
+        <div class="img1">
+            <img src="Media/Maquinaria-Galería.jpg" alt="Tractores y Cosechadoras" width=100% />
+        </div>
+        <br><br>
+        <div class="img1">
+            <img src="Media/Grua_2-Galería.jpg" alt="Trabajo con Grua" width=100% />
         </div>
     </div>
+
+    <?php require 'footer.php'?>
 </body>
 </html>
