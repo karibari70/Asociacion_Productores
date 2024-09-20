@@ -6,12 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Servicios</title>
     <link rel="stylesheet" href="estilos.css">
-    
+
 </head>
 
 <body>
-
-    <button class="boton-flotante"></button>
+    <div class="boton-flotante">
+        <a href=" https://wa.me/542944114644 " target=_blank>
+            <button class="boton-flotante"></button>
+    </div>
 
     <?php require 'navbar.php' ?><br>
 
@@ -47,7 +49,7 @@
         </a>
     </div>
 
-    
+
     <?php require 'footer.php' ?>
 </body>
 

@@ -11,6 +11,10 @@
     <button class="boton-flotante"></button>
 
     <?php require 'navbar.php' ?>
+    <div class="boton-flotante">
+        <a href=" https://wa.me/542944114644 " target=_blank>
+            <button class="boton-flotante"></button>
+    </div>
     <div class="presentacion">
         <div class="img1">
             <div class="conten-imagen">

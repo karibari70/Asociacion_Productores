@@ -11,8 +11,10 @@
 
 <body>
     <?php require 'navbar.php' ?>
-
-    <button class="boton-flotante"></button>
+    <div class="boton-flotante">
+        <a href=" https://wa.me/542944114644 " target=_blank>
+            <button class="boton-flotante"></button>
+    </div>
 
     <div class="presentacion">
 
@@ -87,8 +89,8 @@
             </div>
         </div>
     </div>
-    
-    <?php require 'footer.php'?>
+
+    <?php require 'footer.php' ?>
 </body>
 
 </html>
