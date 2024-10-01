@@ -39,7 +39,7 @@
         </div>
     </div>
     <div class="contenedor6">
-        <h1>Brindamos servicios al productor ganadero y al productor frutihortícola de El Hoyo y Comarca Andina</h1>
+        <h1>Brindamos servicios al productor ganadero y al productor frutihortícola de El Hoyo </h1>
     </div>
 
     <div class="mensaje_contacto">
