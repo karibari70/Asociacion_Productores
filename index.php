@@ -23,6 +23,16 @@
             <p>"Fuerza y Confianza al Servicio del Productor"</p>
         </div>
     </div>
+    <div class="contenedor_video">
+
+
+        <div class="img_video">
+            <img src="Media/Cosechando papas (1).jpg" alt="cosecha" width=100% class="imagen_video">
+        </div><br><br><br>
+        <div class="video">
+            <iframe width="300" height="200" src="https://www.youtube.com/embed/NadscUW-ihs?si=kFvkjPIBS7bcDDp7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </div>
 
     <?php require 'footer.php' ?>
 </body>

@@ -1,11 +1,11 @@
 /* ----------------------------------------------- Foro --------------------------------------------- */
 
-.conten-imagen{
+.conten-imagen {
     position: relative;
     display: inline-block;
 }
 
-.txt-sobrepuesto{
+.txt-sobrepuesto {
     position: absolute;
     bottom: 10px;
     right: 10px;
@@ -75,6 +75,20 @@
     border-radius: 10px;
 }
 
+.contenedor_video {
+    background-color: #ececba;
+    justify-content: center;
+
+    padding: 10%;
+}
+
+.img_video {
+    display: flex;
+    justify-content: center;
+    box-shadow: 3px 5px 3px#3E4042;
+    border: 3px solid #B4B4B4;
+}
+
 
 
 /* ------------------------------------------- Quienes Somos ---------------------------------------------- */
@@ -93,8 +107,7 @@ body {
 
 
     justify-content: center;
-    background-color: #ece8e8;
-    padding: 5%;
+
 
     background-color: rgb(247, 215, 173);
     padding: 10%;
@@ -287,7 +300,7 @@ hr {
 
     padding: 10%;
     border-left: 2px solid black;
-    border-bottom:2px solid black ;
+    border-bottom: 2px solid black;
 
 }
 
@@ -445,7 +458,7 @@ form {
     align-content: center;
     justify-content: center;
     margin: 15%;
-    
+
 
 }
 
@@ -460,37 +473,57 @@ form {
 
 .formulario button:hover {
     background-color: #7ECBEA;
-    color:#0f0f0f ;
+    color: #0f0f0f;
 }
-.formulario h1{
+
+.formulario h1 {
     color: #181717;
 }
-input{
+
+input {
     border: 0;
-    background-color:#7ECBEA ;
+    background-color: #7ECBEA;
     border-bottom: #423e3e solid 1px;
     font-size: 2rem;
-    
+
 }
-input:focus{
+
+input:focus {
     outline: none;
-        
+
 }
-textarea{
+
+textarea {
     padding-bottom: 3%;
-    background-color:#7ECBEA ;
+    background-color: #7ECBEA;
     border: 0;
     border-bottom: #423e3e solid 1px;
     font-size: 2rem;
 
 }
-.datos_form{
+
+.datos_form {
     padding-bottom: 4%;
 }
-.formulario h1{
-    transform:translatex(0px) translatey(26px);}
+
+.formulario h1 {
+    transform: translatex(0px) translatey(26px);
+}
 
 @media (width >800px) {
+
+    /* ......Inicio.................................................... */
+    .contenedor_video div iframe {
+        width: 587px;
+        height: 339px;
+        position: relative;
+        
+        right: -29px;
+        left: 247px;
+        top:53px;
+    }
+
+       
 
     /* --------------------------------------- Quienes Somos -----------------------------------------------*/
 
@@ -601,7 +634,7 @@ textarea{
 
     }
 
-   
+
     .texto_contacto h1 {
         font-size: 6vw;
         margin: 0;
@@ -617,13 +650,13 @@ textarea{
 
 
     /* ------------------------------------------- Index --------------------------------------------------- */
-    
+
     .img-contenedor {
         display: block;
         width: 300%;
         height: auto;
     }
-    
+
     .txt-contenedor {
         position: absolute;
         text-align: center;
@@ -644,14 +677,16 @@ textarea{
     }
 
 
+
+
     /* --------------------------------------------- Galería ------------------------------------------------ */
 
-    .conten-imagen{
+    .conten-imagen {
         position: relative;
         display: inline-block;
     }
 
-    .txt-sobrepuesto{
+    .txt-sobrepuesto {
         position: absolute;
         top: 10px;
         right: 10px;
