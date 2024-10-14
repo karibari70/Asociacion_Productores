@@ -28,19 +28,9 @@
         </div>
         <br><br>
         <div class="img1">
-            <div class="conten-imagen">
-                <img src="Media/Grua_1-Galeria.jpg" alt="Trabajo con Grua" width=100% />
-                <div class="txt-sobrepuesto">Con qué trabajamos</div>
-            </div>
-        </div>
-        <br><br>
-        <div class="img1">
             <img src="Media/Maquinaria-Galería.jpg" alt="Tractores y Cosechadoras" width=100% />
         </div>
-        <br><br>
-        <div class="img1">
-            <img src="Media/Grua_2-Galería.jpg" alt="Trabajo con Grua" width=100% />
-        </div>
+
     </div>
 
     <?php require 'footer.php'?>
