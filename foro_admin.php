@@ -9,6 +9,35 @@
     <?php require 'navbar.php' ?>
 
 <body>
+<<<<<<< Updated upstream:foro_admin.php
+=======
+<div class="contenedor_login">
+    <a href="index_loguin.php" class="login_item" target="_blank">Loguin</a>
+</div>
+    
+    <div class="container">
+        <!-- Formulario a la izquierda -->
+        <div class="form-container">
+            <h2>Haz tu Pregunta</h2>
+            <form method="post" action="agregarConsulta.php">
+                <div class="form-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" id="correo" name="correo" required>
+                </div>
+                <div class="form-group">
+                    <label for="pregunta">Tu pregunta:</label>
+                    <textarea placeholder="max. 200 caracteres" id="pregunta" name="pregunta" required></textarea>
+                </div>
+                <div class="form-group">
+                    <button type="submit">Enviar Pregunta</button>
+                </div>
+            </form>
+        </div>
+>>>>>>> Stashed changes:Foro-test.php
 
         <!-- Preguntas recientes a la derecha -->
         <div class="questions-container">
