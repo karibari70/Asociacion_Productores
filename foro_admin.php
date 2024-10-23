@@ -3,36 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="foro-test.css">
+    <link rel="stylesheet" href="foro.css">
     <title>Foro de Preguntas</title>
 </head>
     <?php require 'navbar.php' ?>
 
 <body>
-
-    
-    <div class="container">
-        <!-- Formulario a la izquierda -->
-        <div class="form-container">
-            <h2>Haz tu Pregunta</h2>
-            <form method="post" action="agregarConsulta.php">
-                <div class="form-group">
-                    <label for="nombre">Nombre:</label>
-                    <input type="text" id="nombre" name="nombre" required>
-                </div>
-                <div class="form-group">
-                    <label for="email">Correo electrónico:</label>
-                    <input type="email" id="correo" name="correo" required>
-                </div>
-                <div class="form-group">
-                    <label for="pregunta">Tu pregunta:</label>
-                    <textarea placeholder="max. 200 caracteres" id="pregunta" name="pregunta" required></textarea>
-                </div>
-                <div class="form-group">
-                    <button type="submit">Enviar Pregunta</button>
-                </div>
-            </form>
-        </div>
 
         <!-- Preguntas recientes a la derecha -->
         <div class="questions-container">

@@ -31,7 +31,7 @@
           <a href="Contacto.php" class="nav-link">Contacto</a>
         </li>
         <li class="nav-item">
-          <a href="Foro-test.php" class="nav-link">Foro de Preguntas</a>
+          <a href="foro.php" class="nav-link">Foro de Preguntas</a>
         </li>
       </ul>
       <div class="hamburger">

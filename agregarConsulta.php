@@ -9,4 +9,4 @@
     $sql = "INSERT INTO foro(correo,nombre,pregunta,fecha) VALUES ('$correo','$nombre','$pregunta','$fecha')";
     $result = $conn->query($sql);
 
-    header('Location: Foro-test.php');
+    header('Location: foro.php');
