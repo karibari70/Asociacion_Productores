@@ -16,6 +16,7 @@
             <div class="link-correo">
                 <a href="mailto:asociacionproductoresdeelhoyo@gmail.com">asociacionproductoresdeelhoyo@gmail.com</a>
             </div>
+            <p>Facundo Pereyra & Karen Rajmilchuk. Fundación Ideo 2024.</p>
     </footer>
 
 </body>

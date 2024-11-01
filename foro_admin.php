@@ -9,8 +9,6 @@
     <?php require 'navbar.php' ?>
 
 <body>
-<<<<<<< Updated upstream:foro_admin.php
-=======
 <div class="contenedor_login">
     <a href="index_loguin.php" class="login_item" target="_blank">Loguin</a>
 </div>
@@ -37,7 +35,6 @@
                 </div>
             </form>
         </div>
->>>>>>> Stashed changes:Foro-test.php
 
         <!-- Preguntas recientes a la derecha -->
         <div class="questions-container">
