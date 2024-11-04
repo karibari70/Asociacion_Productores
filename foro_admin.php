@@ -51,6 +51,7 @@
             // Mostrar respuesta si existe
             if (!empty($row['respuestas'])) {
                 echo "<div class='answer'><strong>Respuesta:</strong> " . $row['respuestas'] . "</div>";
+                echo "<a href='eliminar_respuesta.php?id=$id'>Eliminar</a>";
             } else {
                 // Formulario para responder a la pregunta
                 echo "<form method='POST' action='respuesta.php'>";

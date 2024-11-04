@@ -28,7 +28,7 @@
                     <textarea placeholder="max. 200 caracteres" id="pregunta" name="pregunta" required></textarea>
                 </div>
                 <div class="form-group">
-                    <button type="submit" onclick="alert('se envio la nota')" onclick="alert('se envio la nota')">Enviar Pregunta</button>
+                    <button type="submit">Enviar Pregunta</button>
                 </div>
                 <div>
                     <a href="ingresar.php">Ingresar</a>
