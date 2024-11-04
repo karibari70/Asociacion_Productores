@@ -9,7 +9,9 @@
     <?php require 'navbar.php' ?>
 
 <body>
-
+<div class="contenedor_login">
+    <a href="index_loguin.php" class="login_item" target="_blank">Loguin</a>
+</div>
     
     <div class="container">
         <!-- Formulario a la izquierda -->
@@ -29,10 +31,14 @@
                     <textarea placeholder="max. 200 caracteres" id="pregunta" name="pregunta" required></textarea>
                 </div>
                 <div class="form-group">
-                    <button type="submit">Enviar Pregunta</button>
+                    <button type="submit" onclick="alert('se envio la nota')">Enviar Pregunta</button>
                 </div>
                 <div>
-                    <a href="foro_admin.php">Ingresar</a>
+<<<<<<< HEAD
+                    <a href="ingresar.php">Ingresar</a>
+=======
+                    <a href="index_loguin.php">Ingresar</a>
+>>>>>>> 51cf2cccf218ab8dea900378b07a7770d10d5602
                 </div>
             </form>
         </div>
@@ -49,7 +55,7 @@
             $result = $conn->query($sql);
 
             // Mostrar las preguntas
-            if ($result->num_rows > 0) {
+            if ($result->num_rows> 0) {
                 while ($row = $result->fetch_assoc()) {
                     $fechaFormateada = date("d/m/Y", strtotime($row['fecha'])); 
                     echo "<div class='question'>";
