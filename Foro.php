@@ -11,7 +11,6 @@
 <body>
   
     <div class="container">
-        <!-- Formulario a la izquierda -->
         <div class="form-container">
             <h2>Haz tu Pregunta</h2>
             <form method="post" action="agregarConsulta.php">
@@ -36,18 +35,13 @@
             </form>
         </div>
 
-        <!-- Preguntas recientes a la derecha -->
         <div class="questions-container">
             <h2>Preguntas Recientes</h2>
-            <!-- Aquí se mostrarán las preguntas -->
             <?php
-            // Conexión a la base de datos
             require 'conexion.php';
-            // Consulta para obtener las preguntas más recientes
             $sql = "SELECT * from foro";
             $result = $conn->query($sql);
 
-            // Mostrar las preguntas
             if ($result->num_rows> 0) {
                 while ($row = $result->fetch_assoc()) {
                     $fechaFormateada = date("d/m/Y", strtotime($row['fecha'])); 
@@ -56,11 +50,7 @@
                     echo "<p>" . $row['pregunta'] . "</p>";
                     echo "<small>Publicado el $fechaFormateada </small>";
                     echo "</div>";
-                    // echo $row['nombre'];
-                    // echo $row['pregunta'];
-                    // echo $row['nombre'];
 
-            // Mostrar respuesta si existe
             if (!empty($row['respuestas'])) {
                 echo "<div class='answer'><strong>Respuesta:</strong> " . $row['respuestas'] . "</div>";
             } 
