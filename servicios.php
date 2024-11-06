@@ -34,7 +34,7 @@
 
 
         <div class="button1">
-            <a href="PARQUE DE MAQUINARIAS (1).pdf" target="_blank">
+            <a href="documentos/PARQUE DE MAQUINARIAS (1).pdf" target="_blank">
                 <button>Ver aquí nuestro PARQUE DE MAQUINARIA </button></a>
         </div>
     </div>
