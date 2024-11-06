@@ -60,11 +60,15 @@
                     // echo $row['pregunta'];
                     // echo $row['nombre'];
 
-                }
+            // Mostrar respuesta si existe
+            if (!empty($row['respuestas'])) {
+                echo "<div class='answer'><strong>Respuesta:</strong> " . $row['respuestas'] . "</div>";
+            } 
+        }
+              
             } else {
                 echo "<p>No hay preguntas aún. Sé el primero en preguntar.</p>";
             }
-
             ?>
         </div>
     </div>
