@@ -2,7 +2,7 @@
 require 'conexion.php';
 
 $id = $_GET['id'];
-echo $id;
+// echo $id;
 
 $sql = "UPDATE foro SET respuestas = NULL WHERE id = $id";
 
