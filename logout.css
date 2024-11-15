@@ -1,0 +1,43 @@
+
+        .contenedor_desconexion {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 600px;
+            padding: 40px;
+            transform: translate(-50%, -50%);
+            background: rgba(235, 181, 102, 0.5);
+            box-sizing: border-box;
+            box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+            border-radius: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .caja_desconexion h2 {
+            margin: 30px 0 30px;
+            padding: 0;
+            color: #160a0a;
+            text-align: center;
+            font-size: 20px;
+        }
+
+        .mensaje {
+            flex: 2;
+            margin-right: 20px;
+        }
+
+        .mensaje h2 {
+            margin: 0;
+            padding: 0;
+            color: #080404;
+            text-align: center;
+            font-size: 28px;
+        }
+
+        .imagen_desconexion img {
+            width: 150px;
+            height: auto;
+            border-radius: 10px;
+        }

@@ -576,11 +576,11 @@ background-color: #7ECBEA;
         width: 70%;
         transform: translateY(-35px);
     }
-.ubicación iframe{
-    width: 100%;
-    height: 100%;
-    left:0px;
-}
+    .ubicación iframe{
+        width: 100%;
+        height: 100%;
+        left:0px;
+    }
    
 
     .texto_contacto h1 {
@@ -623,29 +623,4 @@ background-color: #7ECBEA;
         padding: 1px;
         border-radius: 10px;
     }
-
-
-
-
-    /* --------------------------------------------- Galería ------------------------------------------------ */
-
-    .conten-imagen {
-        position: relative;
-        display: inline-block;
-    }
-
-    .txt-sobrepuesto {
-        position: absolute;
-        top: 10px;
-        right: 10px;
-        background-color: rgba(0, 0, 0, 0.5);
-        color: white;
-        padding: 5px 10px;
-        font-size: 20px;
-        border-radius: 10px;
-        height: 35px;
-        display: inline-block;
-        white-space: nowrap;
-    }
-
 }

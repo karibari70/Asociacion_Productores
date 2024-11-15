@@ -1,7 +1,17 @@
+.contenido_principal {
+    flex: 1;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
 body {
+    display: flex;
+    flex-direction: column;
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
-    margin: 0;
     padding: 0px;
 }
 .container {
